@@ -82,7 +82,6 @@ export function updateBook(u: UserWidthLaptopType & UserWidthBooksType, oldBook:
     copy.books[index] = newBook;
 
     return copy;  */
-
     /*  через map */
 
     return {

@@ -1,4 +1,4 @@
-import { addNewBooksToUser, mikeHairsStyle, moveUser, moveUserToOtherHouse, removeBook, updateBook, updateCompany, updateCompanyTitle, updateCompanyTitle2, upgradeUserLaptop, UserType, UserWidthBooksType, UserWidthLaptopType, WithCompaniesType } from "./10_01";
+import { addNewBooksToUser, mikeHairsStyle, moveUser, moveUserToOtherHouse, removeBook, updateBook, updateCompanyTitle, updateCompanyTitle2, upgradeUserLaptop, UserType, UserWidthBooksType, UserWidthLaptopType, WithCompaniesType } from "./10_01";
 
 
 
