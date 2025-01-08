@@ -28,3 +28,25 @@ b.students = [...a.students];
 //проверим глубокое копирование
 b.classroom.teatcher.name = 'Alex';
 console.log(b.classroom.teatcher.name === a.classroom.teatcher.name); //false
+
+let c = {
+    ...a,
+    protocol: 'https' //перезаписали свойство
+};
+console.log(c.protocol); //https
+
+let d = {
+    ...a,
+    students: {...a.students} //копируем студентов
+};
+
+let array = [1, 2, 3, 4];
+let newArray = [...array];
+newArray.push(7);
+
+//кароче синтаксис
+let newArrayTwo = [...array, 7];
+
+//как сделать глубокую копию массива объектов
+let arryTwo = [{name: 'D', a: {age: 21}}, {name: 'M'}];
+let newArrayTWo = arryTwo.map(el => ({...el, a: {...el.a}}))
